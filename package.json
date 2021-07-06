@@ -1,0 +1,20 @@
+{
+  "name": "ip-input-vue",
+  "version": "1.1.0",
+  "description": "A IP input component built for Vue 2.x",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ip-input-vue",
+    "vue",
+    "component",
+    "ip-input"
+  ],
+  "author": "weizhixiang",
+  "license": "ISC",
+  "dependencies": {
+    "methods-util": "^0.3.0"
+  }
+}

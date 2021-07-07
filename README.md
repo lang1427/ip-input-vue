@@ -1,5 +1,7 @@
 # ip-input-vue
 
+> A IP input component built for Vue 2.x
+
 [Demo](https://lang1427.github.io/ip-input-vue/)
 
 ## Install
@@ -21,11 +23,13 @@ Vue.use(vueIp)
 | isDisabled    | Boolean   | false                   | 是否禁用(和只读)
 | need_port 	| Boolean   | false                   | 是否需要端口号
 
+
 ### Events
 | EventName     | Explain           | Params     	
 |-------------	|-------------------|------------------------
-| getIP   	    | 获取IP             | ip 
-| getPort      	| 获取端口           | port   
+| get-ip   	    | 获取IP             | ip 
+| get-port      | 获取端口           | port   
+
 
 ### Methods
 | MethodName    | Explain                               | Params     	

@@ -1,11 +1,13 @@
 {
   "name": "ip-input-vue",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A IP input component built for Vue 2.x",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "homepage": "https://lang1427.github.io/ip-input-vue/",
+  "repository": "lang1427/ip-input-vue",
   "keywords": [
     "ip-input-vue",
     "vue",

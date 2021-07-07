@@ -184,7 +184,7 @@ export default {
       }
 
       this.$emit(
-        "getIP",
+        "get-ip",
         `${this.ipAdress[0].value}.${this.ipAdress[1].value}.${this.ipAdress[2].value}.${this.ipAdress[3].value}`
       );
     },
@@ -234,7 +234,7 @@ export default {
       if (this.port.length >= 5 && Number(this.port) > 65535) {
         this.port = 65535;
       }
-      this.$emit("getPort", this.port);
+      this.$emit("get-port", this.port);
     },
     _port_keyup(event) {
       let self = this;
